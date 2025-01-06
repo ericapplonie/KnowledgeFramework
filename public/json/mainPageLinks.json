@@ -1,0 +1,12 @@
+{
+  "MainPageLinks": [
+    {
+      "title": "Use Case Overview",
+      "url": "https://docs.pingidentity.com/solution-guides/htg_overview.html"
+    },
+    {
+      "title": "Best Practices Guides",
+      "url": "https://docs.pingidentity.com/solution-guides/best_practice_guides/htg_best_practice_guides.html"
+    }
+  ]
+}

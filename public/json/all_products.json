@@ -1,0 +1,1215 @@
+{
+  "p1auth": {
+    "productName": "PingOne Authorize",
+    "productCategory": "Multi-Tenant SaaS",
+    "iconNAV": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Platform-Invert-Authorize-48x48%20(1).png?v=1729706505946",
+    "iconButton": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Authorize-48x48.png?v=1730144616345",
+    "levels": {
+      "foundation": [
+        {
+          "text": "Course: IAM Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjk3/chapter/Q291cnNlOjI0NjU2",
+          "linkId": "9501c4ce477e3292"
+        },
+        {
+          "text": "CIAM Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1599/ciam/lessons",
+          "linkId": "035e303178ce856c"
+        },
+        {
+          "text": "Workforce Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1600/workforce/lessons",
+          "linkId": "50a6c1c190bb5b15"
+        }
+      ],
+      "learner": [
+        {
+          "text": "Course: Introduction to PingOne Authorize",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjg5",
+          "linkId": "4f5d7159db518b95"
+        },
+        {
+          "text": "Demo Enablement: How to Use Demo Assets (Contact: enablepartners@pingidentity.com for live sessions)",
+          "url": "mailto:enablepartners@pingidentity.com?subject=Your%20Subject%20Here&body=Your%20message%20here",
+          "linkId": "d85b05fe2e1c9feb"
+        }
+      ],
+      "associate": [
+        {
+          "text": "TE Monthly Partner Webinar: Product, Training and Tools Updates",
+          "url": "https://education.pingidentity.com/learn/courses/1567/technical-enablement-webinars/lessons",
+          "linkId": "7f8923bbd4d461da"
+        },
+        {
+          "text": "Partner NFR via Try Ping",
+          "url": "https://www.pingidentity.com/en/try-ping.html",
+          "linkId": "fa3b0d37238a82c1"
+        }
+      ],
+      "practitioner": [
+        {
+          "text": "TE: Self Service: New Feature Enablement (Quaterly Product Updates)",
+          "url": "https://education.pingidentity.com/learn/courses/1562/quarterly-product-updates/lessons",
+          "linkId": "14c8d54e8187e62c"
+        },
+        {
+          "text": "Advanced Technical Enablement Webinar: Practitioner-Specific Topics (DAP only)",
+          "url": "https://education.pingidentity.com/learn/learning-plans/94/advanced-technical-enablement-series",
+          "linkId": "7ed43e7d4d573655"
+        }
+      ],
+      "certified professional": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "2e4e82c21e29b384"
+        }
+      ],
+      "scholar": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "329c74bf9185a8af"
+        }
+      ],
+      "certified expert": [
+        {
+          "text": "Cert: Certified Expert - Pingone",
+          "url": "https://backstage.forgerock.com/university/ping/certification",
+          "linkId": "3081e0c5fda88cbb"
+        }
+      ],
+      "documentation": [
+        {
+          "text": "PingOne Authorize Documentation Link",
+          "url": "https://docs.pingidentity.com/pingone/authorization_using_pingone_authorize/p1az_overview.html",
+          "linkId": "0d826ddc62ae407b"
+        }
+      ]
+    }
+  },
+  "p1creds": {
+    "productName": "PingOne Credentials",
+    "productCategory": "Multi-Tenant SaaS",
+    "iconNAV": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Capabilities-Invert-Credentialing-48x48.png?v=1729706470498",
+    "iconButton": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Credentialing-48x48.png?v=1730144677348",
+    "levels": {
+      "foundation": [
+        {
+          "text": "Course: PingOne Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjU1/chapter/Q291cnNlOjIyOTA3",
+          "linkId": "45580566192b360d"
+        },
+        {
+          "text": "Course: IAM Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjk3/chapter/Q291cnNlOjI0NjU2",
+          "linkId": "b385426f4ab78377"
+        },
+        {
+          "text": "CIAM Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1599/ciam/lessons",
+          "linkId": "cd811fc2c10493e7"
+        },
+        {
+          "text": "Workforce Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1600/workforce/lessons",
+          "linkId": "55df1eaf3a43f316"
+        }
+      ],
+      "learner": [
+        {
+          "text": "Course: Introduction to PingOne Credentials",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjUz/chapter/Q291cnNlOjIyOTA0",
+          "linkId": "bfdbd5b3e9f6ecf0"
+        },
+        {
+          "text": "Demo Enablement: How to Use Demo Assets (Contact: enablepartners@pingidentity.com for live sessions)",
+          "url": "mailto:enablepartners@pingidentity.com?subject=Your%20Subject%20Here&body=Your%20message%20here",
+          "linkId": "9663395a87488a17"
+        }
+      ],
+      "associate": [
+        {
+          "text": "TE Monthly Partner Webinar: Product, Training and Tools Updates",
+          "url": "https://education.pingidentity.com/learn/courses/1567/technical-enablement-webinars/lessons",
+          "linkId": "c3d1b48d8b1e51d3"
+        },
+        {
+          "text": "Partner NFR via Try Ping",
+          "url": "https://www.pingidentity.com/en/try-ping.html",
+          "linkId": "b5cb308c6c1b65fc"
+        }
+      ],
+      "practitioner": [
+        {
+          "text": "TE: Self Service: New Feature Enablement (Quaterly Product Updates)",
+          "url": "https://education.pingidentity.com/learn/courses/1562/quarterly-product-updates/lessons",
+          "linkId": "2d761d997b4dc88f"
+        },
+        {
+          "text": "Advanced Technical Enablement Webinar: Practitioner-Specific Topics (DAP only)",
+          "url": "https://education.pingidentity.com/learn/learning-plans/94/advanced-technical-enablement-series",
+          "linkId": "37cc516ae235210f"
+        }
+      ],
+      "certified professional": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "457ce210920d8648"
+        }
+      ],
+      "scholar": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "035069e8d46ae20e"
+        }
+      ],
+      "certified expert": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "10aa0e8dfdfd252d"
+        }
+      ],
+      "documentation": [
+        {
+          "text": "PingOne Credentials Documentation Link",
+          "url": "https://docs.pingidentity.com/pingone/digital_credentials_using_pingone_credentials/p1_credentials_start.html",
+          "linkId": "66b66282ac209666"
+        }
+      ]
+    }
+  },
+  "p1dv": {
+    "productName": "PingOne DaVinci",
+    "productCategory": "Multi-Tenant SaaS",
+    "iconNAV": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Capabilities-Invert-Orchestrate-20x20.png?v=1729712435112",
+    "iconButton": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Orchestrate-48x48.png?v=1729712252951",
+    "levels": {
+      "foundation": [
+        {
+          "text": "Course: PingOne Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjU1/chapter/Q291cnNlOjIyOTA3",
+          "linkId": "e65b21c862d11bc7"
+        },
+        {
+          "text": "Course: IAM Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjk3/chapter/Q291cnNlOjI0NjU2",
+          "linkId": "413c4ac80c24512e"
+        },
+        {
+          "text": "CIAM Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1599/ciam/lessons",
+          "linkId": "bde2e1aedfef8f2f"
+        },
+        {
+          "text": "Workforce Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1600/workforce/lessons",
+          "linkId": "95e67e9a3ba0068b"
+        },
+        {
+          "linkId": "9d4e1c5caad68bb0",
+          "text": "test",
+          "url": "test"
+        }
+      ],
+      "learner": [
+        {
+          "text": "Course: Introduction to PingOne DaVinci",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjcx/chapter/Q291cnNlOjIyOTYx",
+          "linkId": "11c2068ea4076cc7"
+        },
+        {
+          "text": "Demo Enablement: How to Use Demo Assets (Contact: enablepartners@pingidentity.com for live sessions)",
+          "url": "mailto:enablepartners@pingidentity.com?subject=Your%20Subject%20Here&body=Your%20message%20here",
+          "linkId": "0bb5cd10c56a22b5"
+        }
+      ],
+      "associate": [
+        {
+          "text": "Course: Getting Started With PingOne DaVinci (OD + ILT)",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjkw",
+          "linkId": "2597ca3eb8bdc1db"
+        },
+        {
+          "text": "TE Monthly Partner Webinar: Product, Training and Tools Updates",
+          "url": "https://education.pingidentity.com/learn/courses/1567/technical-enablement-webinars/lessons",
+          "linkId": "280284eed9053b93"
+        },
+        {
+          "text": "Partner NFR via Try Ping",
+          "url": "https://www.pingidentity.com/en/try-ping.html",
+          "linkId": "f754b639045b2ea9"
+        }
+      ],
+      "practitioner": [
+        {
+          "text": "TE: Self Service: New Feature Enablement (Quaterly Product Updates)",
+          "url": "https://education.pingidentity.com/learn/courses/1562/quarterly-product-updates/lessons",
+          "linkId": "d13ee565459908df"
+        },
+        {
+          "text": "Advanced Technical Enablement Webinar: Practitioner-Specific Topics (DAP only)",
+          "url": "https://education.pingidentity.com/learn/learning-plans/94/advanced-technical-enablement-series",
+          "linkId": "b5e379494e23a052"
+        }
+      ],
+      "certified professional": [
+        {
+          "text": "Cert: Certified Professional - PingOne Davinci",
+          "url": "https://backstage.forgerock.com/university/ping/certification",
+          "linkId": "ec2d7607328b7b4c"
+        }
+      ],
+      "scholar": [
+        {
+          "text": "Building Connectors for PingOne DaVinci",
+          "url": "https://education.pingidentity.com/learn/course/1014/play/7135/advanced-technical-enablement-recording-for-pingone-davinci",
+          "linkId": "09d9da85e83b8b2f"
+        }
+      ],
+      "certified expert": [
+        {
+          "text": "Cert: Certified Expert - PingOne",
+          "url": "https://backstage.forgerock.com/university/ping/certification",
+          "linkId": "d5823c8d3e30d97a"
+        }
+      ],
+      "documentation": [
+        {
+          "text": "PingOne Davinci Documentation Link",
+          "url": "https://docs.pingidentity.com/davinci/davinci_landing_page.html",
+          "linkId": "f5d40f683fcf5203"
+        }
+      ]
+    }
+  },
+  "p1mfa": {
+    "productName": "PingOne MFA",
+    "productCategory": "Multi-Tenant SaaS",
+    "iconNAV": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Capabilities-Invert-MFA-20x20.png?v=1729706482371",
+    "iconButton": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Capabilities-MFA-48x48.png?v=1730144626747",
+    "levels": {
+      "foundation": [
+        {
+          "text": "Course: PingOne Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjU1/chapter/Q291cnNlOjIyOTA3",
+          "linkId": "b9930e69937c1326"
+        },
+        {
+          "text": "Course: IAM Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjk3/chapter/Q291cnNlOjI0NjU2",
+          "linkId": "142d8a86e09c2abc"
+        },
+        {
+          "text": "CIAM Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1599/ciam/lessons",
+          "linkId": "be93a108245a486b"
+        },
+        {
+          "text": "Workforce Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1600/workforce/lessons",
+          "linkId": "5fabc46171d322a9"
+        }
+      ],
+      "learner": [
+        {
+          "text": "Course: Introduction to PingOne MFA",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjc0/chapter/Q291cnNlOjIyOTY2",
+          "linkId": "90a2b3a8728c8591"
+        },
+        {
+          "text": "Demo Enablement: How to Use Demo Assets (Contact: enablepartners@pingidentity.com for live sessions)",
+          "url": "mailto:enablepartners@pingidentity.com?subject=Your%20Subject%20Here&body=Your%20message%20here",
+          "linkId": "bdb4336caedc69f6"
+        }
+      ],
+      "associate": [
+        {
+          "text": "Course: Getting Started With PingOne MFA",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjk0",
+          "linkId": "2dc69edf053a08e5"
+        },
+        {
+          "text": "TE Monthly Partner Webinar: Product, Training and Tools Updates",
+          "url": "https://education.pingidentity.com/learn/courses/1567/technical-enablement-webinars/lessons",
+          "linkId": "e467197d4eec70c3"
+        },
+        {
+          "text": "Partner NFR via Try Ping",
+          "url": "https://www.pingidentity.com/en/try-ping.html",
+          "linkId": "1090528d598ece4a"
+        }
+      ],
+      "practitioner": [
+        {
+          "text": "TE: Self Service: New Feature Enablement (Quaterly Product Updates)",
+          "url": "https://education.pingidentity.com/learn/courses/1562/quarterly-product-updates/lessons",
+          "linkId": "814235f93aaf4e89"
+        },
+        {
+          "text": "Advanced Technical Enablement Webinar: Practitioner-Specific Topics (DAP only)",
+          "url": "https://education.pingidentity.com/learn/learning-plans/94/advanced-technical-enablement-series",
+          "linkId": "b43128b9e55c4d16"
+        }
+      ],
+      "certified professional": [
+        {
+          "text": "Cert: Certified Professional - PingOne",
+          "url": "https://backstage.forgerock.com/university/ping/certification",
+          "linkId": "daadde60e8ebbc93"
+        }
+      ],
+      "scholar": [
+        {
+          "text": "COE: MFA IK",
+          "url": "https://pingidentity.docebosaas.com/learn/courses/679/pingone-sso-essentials-mfa-integration-kit-for-pingfederate-p14c/lessons",
+          "linkId": "737d62b586e92dca"
+        },
+        {
+          "text": "Configure PingFederate Passwordless using PingOne MFA External",
+          "url": "https://education.pingidentity.com/learn/course/1011/configure-pingfederate-passwordless-using-pingone-mfa-external",
+          "linkId": "d166d8190d60b6cb"
+        },
+        {
+          "text": "Configure PingOne MFA in PingFederate",
+          "url": "https://education.pingidentity.com/learn/courses/870/configure-pingone-mfa-in-pingfederate?hash=74dcf23508543b640909376ecbdf667106881b5f&generated_by=5310645",
+          "linkId": "4768f6204d81c54b"
+        },
+        {
+          "text": "Advanced Testing of PingOne MFA in PingFederate",
+          "url": "https://education.pingidentity.com/learn/courses/890/advanced-testing-of-pingone-mfa-in-pingfederate?hash=447c1b49a65e166ab5bb88d5cd95e537ffc909df&generated_by=5310645",
+          "linkId": "a49fd13f42bb7b86"
+        },
+        {
+          "text": "Configure PingFederate Passwordless using PingOne MFA External",
+          "url": "https://education.pingidentity.com/learn/courses/1011/configure-pingfederate-passwordless-using-pingone-mfa-external?hash=12a38faca6519b63d22957990458054e0faa9f11&generated_by=5310645",
+          "linkId": "c3bcaa177437a845"
+        },
+        {
+          "text": "Configure PingFed Passwordless using PingOne MFA, FIDO Update External ",
+          "url": "https://education.pingidentity.com/learn/courses/1115/configure-pingfed-passwordless-using-pingone-mfa-fido-update-external?hash=88de939209558f40a5acb6952e8a016a658a03c6&generated_by=5310645",
+          "linkId": "aae2ed1d54a4c666"
+        }
+      ],
+      "certified expert": [
+        {
+          "text": "Cert: Certified Expert - PingOne",
+          "url": "https://backstage.forgerock.com/university/ping/certification",
+          "linkId": "2f8d045dd55fef23"
+        }
+      ],
+      "documentation": [
+        {
+          "text": "PingOne MFA",
+          "url": "https://docs.pingidentity.com/pingone/getting_started_with_pingone/p1_mfa_landing.html",
+          "linkId": "99ca72c9ae09add8"
+        }
+      ]
+    }
+  },
+  "p1pro": {
+    "productName": "PingOne Protect",
+    "productCategory": "Multi-Tenant SaaS",
+    "iconNAV": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Invert-Lock-48x48.png?v=1729706496628",
+    "iconButton": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Lock-48x48.png?v=1730144592188",
+    "levels": {
+      "foundation": [
+        {
+          "text": "Course: PingOne Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjU1/chapter/Q291cnNlOjIyOTA3",
+          "linkId": "0e05f0ec6d9e83b0"
+        },
+        {
+          "text": "Course: IAM Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjk3/chapter/Q291cnNlOjI0NjU2",
+          "linkId": "0111fce909add027"
+        },
+        {
+          "text": "CIAM Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1599/ciam/lessons",
+          "linkId": "8e43611d2aa248d8"
+        },
+        {
+          "text": "Workforce Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1600/workforce/lessons",
+          "linkId": "4f8183ec3833cf09"
+        }
+      ],
+      "learner": [
+        {
+          "text": "Workshop: Ping Products and Capabilities overview (On request to enablepartners@pingidentity.com; content examples: Capabilities)",
+          "url": "https://google.com",
+          "linkId": "0b871017e7e51122"
+        },
+        {
+          "text": "Demo Enablement: How to Use Demo Assets (Contact: enablepartners@pingidentity.com for live sessions)",
+          "url": "mailto:enablepartners@pingidentity.com?subject=Your%20Subject%20Here&body=Your%20message%20here",
+          "linkId": "d0fc7c74b2d82f07"
+        }
+      ],
+      "associate": [
+        {
+          "text": "Course: Getting Started With PingOne Protect",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjky",
+          "linkId": "3e133804c1c435e9"
+        },
+        {
+          "text": "TE Monthly Partner Webinar: Product, Training and Tools Updates",
+          "url": "https://education.pingidentity.com/learn/courses/1567/technical-enablement-webinars/lessons",
+          "linkId": "5a84e443bab175c6"
+        },
+        {
+          "text": "Partner NFR via Try Ping",
+          "url": "https://www.pingidentity.com/en/try-ping.html",
+          "linkId": "f974b68d67bd3753"
+        }
+      ],
+      "practitioner": [
+        {
+          "text": "TE: Self Service: New Feature Enablement (Quaterly Product Updates)",
+          "url": "https://education.pingidentity.com/learn/courses/1562/quarterly-product-updates/lessons",
+          "linkId": "62fd0097b135b9ea"
+        },
+        {
+          "text": "Advanced Technical Enablement Webinar: Practitioner-Specific Topics (DAP only)",
+          "url": "https://education.pingidentity.com/learn/learning-plans/94/advanced-technical-enablement-series",
+          "linkId": "f69fc463a4bcf650"
+        },
+        {
+          "linkId": "8e26a350d674acce",
+          "text": "PingOne Protect Integration and Data Analysis",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjEwMg%3D%3D"
+        }
+      ],
+      "certified professional": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "bbb79d07c2ea2c6f"
+        }
+      ],
+      "scholar": [
+        {
+          "text": "COE: Protect/Risk IK",
+          "url": "https://pingidentity.docebosaas.com/learn/courses/748/pingfederate-essentials-343-pingone-protect-risk-iks/lessons",
+          "linkId": "e7fa38d16e1e33fa"
+        },
+        {
+          "text": "Configure PingOne Risk in PingFederate Partner",
+          "url": "https://education.pingidentity.com/learn/courses/940/configure-pingone-risk-in-pingfederate-partner?hash=10c61f21c03f73835dd9b7bae379c8c47ecc3ecc&generated_by=5310645",
+          "linkId": "9327ca017d99af10"
+        },
+        {
+          "text": " Configure PingFed Risk using PingOne Risk, Part 2, External ",
+          "url": "https://education.pingidentity.com/learn/courses/1129/configure-pingfed-risk-using-pingone-risk-part-2-external?hash=461077fcfaf89c99dfac4d1947e73baaef2ae7e6&generated_by=5310645",
+          "linkId": "90ff6a8aa52977df"
+        }
+      ],
+      "certified expert": [
+        {
+          "text": "Cert: Certified Expert - Pingone",
+          "url": "https://backstage.forgerock.com/university/ping/certification",
+          "linkId": "1d2554fcb4adcf4d"
+        }
+      ],
+      "documentation": [
+        {
+          "text": "PingOne Protect Documentation Link",
+          "url": "https://docs.pingidentity.com/pingone/threat_protection_using_pingone_protect/p1_protect_overview.html",
+          "linkId": "d06a8aa1449de262"
+        }
+      ]
+    }
+  },
+  "p1sso": {
+    "productName": "PingOne SSO",
+    "productCategory": "Multi-Tenant SaaS",
+    "iconNAV": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Capabilities-Invert-SSO-20x20%20(1).png?v=1729706473100",
+    "iconButton": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Capabilities-SSO-20x20.png?v=1730144636109",
+    "levels": {
+      "foundation": [
+        {
+          "text": "Course: PingOne Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjU1/chapter/Q291cnNlOjIyOTA3",
+          "linkId": "b6ec606b41be04b2"
+        },
+        {
+          "text": "Course: IAM Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjk3/chapter/Q291cnNlOjI0NjU2",
+          "linkId": "6e532128edb3a292"
+        },
+        {
+          "text": "CIAM Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1599/ciam/lessons",
+          "linkId": "9c276e7e0db040dd"
+        },
+        {
+          "text": "Workforce Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1600/workforce/lessons",
+          "linkId": "bbcd8481932e5d37"
+        }
+      ],
+      "learner": [
+        {
+          "text": "Demo Enablement: How to Use Demo Assets (Contact: enablepartners@pingidentity.com for live sessions)",
+          "url": "mailto:enablepartners@pingidentity.com?subject=Your%20Subject%20Here&body=Your%20message%20here",
+          "linkId": "25416205e5e1ac7a"
+        }
+      ],
+      "associate": [
+        {
+          "text": "Course: Getting Started with P1SSO",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjkz",
+          "linkId": "ba4ff299324ba7e9"
+        },
+        {
+          "text": "TE Monthly Partner Webinar: Product, Training and Tools Updates (all Partners)",
+          "url": "https://education.pingidentity.com/learn/courses/1567/technical-enablement-webinars/lessons",
+          "linkId": "ea3dfc954c1477b7"
+        },
+        {
+          "text": "Partner NFR via Try Ping",
+          "url": "https://www.pingidentity.com/en/try-ping.html",
+          "linkId": "03f4dbaf52b7eb01"
+        }
+      ],
+      "practitioner": [
+        {
+          "text": "TE: Self Service: New Feature Enablement (Quaterly Product Updates)",
+          "url": "https://education.pingidentity.com/learn/courses/1562/quarterly-product-updates/lessons",
+          "linkId": "3743be68921fcd67"
+        },
+        {
+          "text": "Advanced Technical Enablement Webinar: Practitioner-Specific Topics (DAP only)",
+          "url": "https://education.pingidentity.com/learn/learning-plans/94/advanced-technical-enablement-series",
+          "linkId": "7bfd7a9f89ff52d3"
+        }
+      ],
+      "certified professional": [
+        {
+          "text": "Cert: Certified Professional - PingOne",
+          "url": "https://backstage.forgerock.com/university/ping/certification",
+          "linkId": "0fae2569b500f192"
+        }
+      ],
+      "scholar": [
+        {
+          "text": "COE: P14C IK",
+          "url": "https://pingidentity.docebosaas.com/learn/courses/321/pingfederate-pingone-sso-integration-kit-p14c/lessons",
+          "linkId": "04787a3d1b9b11d3"
+        },
+        {
+          "text": "COE: PingID with PingOne SSO",
+          "url": "https://pingidentity.docebosaas.com/learn/courses/964/pingid-302-integration-with-pingonesso/lessons",
+          "linkId": "f15022dd7ed28dd5"
+        },
+        {
+          "text": "Connect PingOne and PingFederate",
+          "url": "https://education.pingidentity.com/learn/courses/869/connect-pingone-and-pingfederate?hash=f9309842bf0d879a4eb48535b782a893fc557359&generated_by=5310645",
+          "linkId": "64733efa57ea8eb9"
+        }
+      ],
+      "certified expert": [
+        {
+          "text": "Cert: Certified Expert - PingOne",
+          "url": "https://backstage.forgerock.com/university/ping/certification",
+          "linkId": "6dbcb0b1671d0fc9"
+        }
+      ],
+      "documentation": [
+        {
+          "text": "PingOne SSO Documentation Link",
+          "url": "https://docs.pingidentity.com/pingone/getting_started_with_pingone/p1_p1sso_start.html",
+          "linkId": "b43b30466d66e20a"
+        }
+      ]
+    }
+  },
+  "p1v": {
+    "productName": "PingOne Verify",
+    "productCategory": "Multi-Tenant SaaS",
+    "iconNAV": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Platform-Invert-Verify-48x48.png?v=1730144599769",
+    "iconButton": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Verify-48x48.png?v=1730144595891",
+    "levels": {
+      "foundation": [
+        {
+          "text": "Course: PingOne Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjU1/chapter/Q291cnNlOjIyOTA3",
+          "linkId": "f6916ae7109cea78"
+        },
+        {
+          "text": "Course: IAM Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjk3/chapter/Q291cnNlOjI0NjU2",
+          "linkId": "dae9a0ed406d4734"
+        },
+        {
+          "text": "CIAM Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1599/ciam/lessons",
+          "linkId": "1b465ab19f80def5"
+        },
+        {
+          "text": "Workforce Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1600/workforce/lessons",
+          "linkId": "14a396235d1e1d0f"
+        }
+      ],
+      "learner": [
+        {
+          "text": "Course: Introduction to PingOne Verify",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjU3/chapter/Q291cnNlOjIyOTEx",
+          "linkId": "09b4337baa71d43f"
+        },
+        {
+          "text": "Demo Enablement: How to Use Demo Assets (Contact: enablepartners@pingidentity.com for live sessions)",
+          "url": "mailto:enablepartners@pingidentity.com?subject=Your%20Subject%20Here&body=Your%20message%20here",
+          "linkId": "aa11b7ba09cc5a85"
+        }
+      ],
+      "associate": [
+        {
+          "text": "Course: Getting Started With PingOne Verify",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjkx",
+          "linkId": "889c7dc7b716460b"
+        },
+        {
+          "text": "TE Monthly Partner Webinar: Product, Training and Tools Updates",
+          "url": "https://education.pingidentity.com/learn/courses/1567/technical-enablement-webinars/lessons",
+          "linkId": "4bdff07f29782d59"
+        },
+        {
+          "text": "Partner NFR via Try Ping",
+          "url": "https://www.pingidentity.com/en/try-ping.html",
+          "linkId": "c21bb63668fd00f6"
+        }
+      ],
+      "practitioner": [
+        {
+          "text": "TE: Self Service: New Feature Enablement (Quaterly Product Updates)",
+          "url": "https://education.pingidentity.com/learn/courses/1562/quarterly-product-updates/lessons",
+          "linkId": "a5af917d2155c890"
+        },
+        {
+          "text": "Advanced Technical Enablement Webinar: Practitioner-Specific Topics (DAP only)",
+          "url": "https://education.pingidentity.com/learn/learning-plans/94/advanced-technical-enablement-series",
+          "linkId": "e4c11b4db1aeec31"
+        }
+      ],
+      "certified professional": [
+        {
+          "text": "Cert: Certified Expert - Pingone",
+          "url": "https://backstage.forgerock.com/university/ping/certification",
+          "linkId": "4487777f453071d2"
+        }
+      ],
+      "scholar": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "fb2582fbee35f7b8"
+        }
+      ],
+      "certified expert": [
+        {
+          "text": "Cert: Certified Expert - Pingone",
+          "url": "https://backstage.forgerock.com/university/ping/certification",
+          "linkId": "d8a7e40d2482fcb9"
+        }
+      ],
+      "documentation": [
+        {
+          "text": "PingOne Verify Documentation Link",
+          "url": "https://docs.pingidentity.com/pingone/identity_verification_using_pingone_verify/p1_verify_start.html",
+          "linkId": "5f17be359014a1a8"
+        }
+      ]
+    }
+  },
+  "p1aic": {
+    "productName": "PingOne Advanced Identity Cloud",
+    "productCategory": "Single-Tenant SaaS",
+    "iconNAV": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Invert-HybridCloud-48x48.png?v=1729706477078",
+    "iconButton": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-HybridCloud-48x48.png?v=1730145000886",
+    "levels": {
+      "foundation": [
+        {
+          "text": "Course: IAM Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjk3/chapter/Q291cnNlOjI0NjU2",
+          "linkId": "dd02217c4875a107"
+        },
+        {
+          "text": "CIAM Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1599/ciam/lessons",
+          "linkId": "583fb0f5dd5b4f93"
+        },
+        {
+          "text": "Workforce Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1600/workforce/lessons",
+          "linkId": "7d3ef90dbeeb3685"
+        }
+      ],
+      "learner": [
+        {
+          "text": "Course: Introduction to PingOne Advanced Identity Cloud",
+          "url": "https://backstage.forgerock.com/university/forgerock/on-demand/path/TGVhcm5pbmdQYXRoOjk4/chapter/Q291cnNlOjI0Nzky",
+          "linkId": "d610260d9e94817b"
+        },
+        {
+          "text": "Course: Enterprise Connect Essentials",
+          "url": "https://backstage.forgerock.com/university/forgerock/on-demand/path/TGVhcm5pbmdQYXRoOjQ0",
+          "linkId": "d607b7e860f164b2"
+        },
+        {
+          "text": "Demo Enablement: How to Use Demo Assets (Contact: enablepartners@pingidentity.com for live sessions)",
+          "url": "mailto:enablepartners@pingidentity.com?subject=Your%20Subject%20Here&body=Your%20message%20here",
+          "linkId": "aaa21750dd12cb94"
+        }
+      ],
+      "associate": [
+        {
+          "text": "Course: Getting Started With PingOne Advanced Identity Cloud for Administrators",
+          "url": "https://backstage.forgerock.com/university/forgerock/on-demand/path/TGVhcm5pbmdQYXRoOjg3",
+          "linkId": "94430102247587b5"
+        },
+        {
+          "text": "TE Monthly Partner Webinar: Product, Training and Tools Updates",
+          "url": "https://education.pingidentity.com/learn/courses/1567/technical-enablement-webinars/lessons",
+          "linkId": "67bc08f4f8f668db"
+        }
+      ],
+      "practitioner": [
+        {
+          "text": "Course: PingOne Advanced Identity Cloud Deep Dive: Access Management ",
+          "url": "https://backstage.forgerock.com/university/forgerock/on-demand/path/TGVhcm5pbmdQYXRoOjEx",
+          "linkId": "8642a681d3300f02"
+        },
+        {
+          "text": "Course: PingOne Advanced Identity Cloud Deep Dive: Identity Management",
+          "url": "https://backstage.forgerock.com/university/forgerock/on-demand/path/TGVhcm5pbmdQYXRoOjEy",
+          "linkId": "145e25e34a2a8098"
+        },
+        {
+          "text": "TE: Self Service: New Feature Enablement (Quaterly Product Updates)",
+          "url": "https://education.pingidentity.com/learn/courses/1562/quarterly-product-updates/lessons",
+          "linkId": "79e726aaca83ad86"
+        },
+        {
+          "text": "Advanced Technical Enablement Webinar: Practitioner-Specific Topics (DAP only)",
+          "url": "https://education.pingidentity.com/learn/learning-plans/94/advanced-technical-enablement-series",
+          "linkId": "f9d507445a39ed8c"
+        },
+        {
+          "text": "AIC Use Case Catalog",
+          "url": "https://backstage.forgerock.com/docs/idcloud/latest/use-cases/single-page.html",
+          "linkId": "eb26a38c70930ce3"
+        }
+      ],
+      "certified professional": [
+        {
+          "text": "Cert: Certified Professional -  PingOne Advanced Identity Cloud Exam",
+          "url": "https://backstage.forgerock.com/university/ping/certification",
+          "linkId": "bd1e64c7d92b300a"
+        }
+      ],
+      "scholar": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "d63f9ae28db453c7"
+        }
+      ],
+      "certified expert": [
+        {
+          "text": "Course: Designing and Managing a PingOne Advanced Identity Cloud Solution",
+          "url": "https://backstage.forgerock.com/university/forgerock/on-demand/path/TGVhcm5pbmdQYXRoOjQ4",
+          "linkId": "ca76b0c40b19554c"
+        }
+      ],
+      "documentation": [
+        {
+          "text": "PingOne AIC Documentation Link",
+          "url": "https://docs.pingidentity.com/pingoneaic/latest/home.html",
+          "linkId": "daaf6fb866939574"
+        }
+      ]
+    }
+  },
+  "pingam": {
+    "productName": "PingAM",
+    "productCategory": "Self-Managed",
+    "iconNAV": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Invert-Centralize-48x48.png?v=1729706488491",
+    "iconButton": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Centralize-48x48.png?v=1730144877690",
+    "levels": {
+      "foundation": [
+        {
+          "text": "Course: IAM Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjk3/chapter/Q291cnNlOjI0NjU2",
+          "linkId": "0728800c8a8f7a58"
+        },
+        {
+          "text": "CIAM Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1599/ciam/lessons",
+          "linkId": "6b3da1e96e1ffc58"
+        },
+        {
+          "text": "Workforce Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1600/workforce/lessons",
+          "linkId": "1f691967fe0459ce"
+        }
+      ],
+      "learner": [
+        {
+          "text": "Course: PingAM Essentials",
+          "url": "https://backstage.forgerock.com/university/forgerock/on-demand/path/TGVhcm5pbmdQYXRoOjI%3D/chapter/Q291cnNlOjE1NzIy",
+          "linkId": "2da611f804f9eaa5"
+        },
+        {
+          "text": "Demo Enablement: How to Use Demo Assets (Contact: enablepartners@pingidentity.com for live sessions)",
+          "url": "mailto:enablepartners@pingidentity.com?subject=Your%20Subject%20Here&body=Your%20message%20here",
+          "linkId": "217f08eafdac8874"
+        }
+      ],
+      "associate": [
+        {
+          "text": "TE Monthly Partner Webinar: Product, Training and Tools Updates",
+          "url": "https://education.pingidentity.com/learn/courses/1567/technical-enablement-webinars/lessons",
+          "linkId": "3907b73b298a532a"
+        },
+        {
+          "text": "ForgeRock (Backstage) Download Center - PingAM",
+          "url": "https://backstage.forgerock.com/downloads/browse/am/featured",
+          "linkId": "5ba21689d32742b6"
+        }
+      ],
+      "practitioner": [
+        {
+          "text": "Course: PingAM Deep Dive ",
+          "url": "https://backstage.forgerock.com/university/forgerock/on-demand/path/TGVhcm5pbmdQYXRoOjQ1",
+          "linkId": "1c6fe738426d5e26"
+        },
+        {
+          "text": "TE: Self Service: New Feature Enablement (Quaterly Product Updates)",
+          "url": "https://education.pingidentity.com/learn/courses/1562/quarterly-product-updates/lessons",
+          "linkId": "f4fe2b5f98e5898f"
+        },
+        {
+          "text": "Advanced Technical Enablement Webinar: Practitioner-Specific Topics (DAP only)",
+          "url": "https://education.pingidentity.com/learn/learning-plans/94/advanced-technical-enablement-series",
+          "linkId": "55515c9b4ef9127f"
+        }
+      ],
+      "certified professional": [
+        {
+          "text": "Cert: Certified Professional -  PingAM Exam",
+          "url": "https://backstage.forgerock.com/university/ping/certification",
+          "linkId": "88fd7c7a6b115d01"
+        }
+      ],
+      "scholar": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "acf9d89fb6631c5d"
+        }
+      ],
+      "certified expert": [
+        {
+          "text": "Accreditation: PingAM Specialist Accreditation (AP-AM)",
+          "url": "https://backstage.forgerock.com/university/ping/certification",
+          "linkId": "8c93a37246fe0db1"
+        }
+      ],
+      "documentation": [
+        {
+          "text": "PingAM Documentation Link",
+          "url": "https://docs.pingidentity.com/pingam/latest/release-notes/preface.html",
+          "linkId": "8d9cbb334de7ec02"
+        }
+      ]
+    }
+  },
+  "pingds": {
+    "productName": "PingDS",
+    "productCategory": "Self-Managed",
+    "iconNAV": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Capabilities-Invert-Directory-20x20.png?v=1729712533910",
+    "iconButton": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Capabilities-Directory-48x48.png?v=1730144970355",
+    "levels": {
+      "foundation": [
+        {
+          "text": "Course: IAM Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjk3/chapter/Q291cnNlOjI0NjU2",
+          "linkId": "08359415aec0c6f2"
+        },
+        {
+          "text": "CIAM Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1599/ciam/lessons",
+          "linkId": "ac8c08e8ac7a61de"
+        },
+        {
+          "text": "Workforce Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1600/workforce/lessons",
+          "linkId": "cc7bfbcfd753bfbb"
+        }
+      ],
+      "learner": [
+        {
+          "text": "Course: PingDS Essentials",
+          "url": "https://backstage.forgerock.com/university/forgerock/on-demand/path/TGVhcm5pbmdQYXRoOjU%3D/chapter/Q291cnNlOjE1NzI4",
+          "linkId": "ff03672c2e6205ca"
+        },
+        {
+          "text": "Demo Enablement: How to Use Demo Assets (Contact: enablepartners@pingidentity.com for live sessions)",
+          "url": "mailto:enablepartners@pingidentity.com?subject=Your%20Subject%20Here&body=Your%20message%20here",
+          "linkId": "ec8b1932cb27425f"
+        }
+      ],
+      "associate": [
+        {
+          "text": "TE Monthly Partner Webinar: Product, Training and Tools Updates",
+          "url": "https://education.pingidentity.com/learn/courses/1567/technical-enablement-webinars/lessons",
+          "linkId": "5c292afe9eee5d44"
+        },
+        {
+          "text": "ForgeRock (Backstage) Download Center - PingDS",
+          "url": "https://backstage.forgerock.com/downloads/browse/ds/featured",
+          "linkId": "d4c2103473c422f2"
+        }
+      ],
+      "practitioner": [
+        {
+          "text": "Course: PingDS Deep Dive",
+          "url": "https://backstage.forgerock.com/university/forgerock/on-demand/path/TGVhcm5pbmdQYXRoOjM5",
+          "linkId": "2d518b4bce006ca4"
+        },
+        {
+          "text": "TE: Self Service: New Feature Enablement (Quaterly Product Updates)",
+          "url": "https://education.pingidentity.com/learn/courses/1562/quarterly-product-updates/lessons",
+          "linkId": "f6868c4d596731ac"
+        },
+        {
+          "text": "Advanced Technical Enablement Webinar: Practitioner-Specific Topics (DAP only)",
+          "url": "https://education.pingidentity.com/learn/learning-plans/94/advanced-technical-enablement-series",
+          "linkId": "2bbc354374891b47"
+        }
+      ],
+      "certified professional": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "16be1b8a567863dc"
+        }
+      ],
+      "scholar": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "8da08bf1fb673471"
+        }
+      ],
+      "certified expert": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "b7799c3eb905da41"
+        }
+      ],
+      "documentation": [
+        {
+          "text": "PingDS Documentation Link",
+          "url": "https://docs.pingidentity.com/pingds/latest/release-notes/preface.html",
+          "linkId": "eec18ee191b39d72"
+        }
+      ]
+    }
+  },
+  "pinggw": {
+    "productName": "PingGateway",
+    "productCategory": "Self-Managed",
+    "iconNAV": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Capabilities-Invert-FraudDetection-48x48.png?v=1729712847493",
+    "iconButton": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Capabilities-FraudDetection-48x48.png?v=1730144630336",
+    "levels": {
+      "foundation": [
+        {
+          "text": "Course: IAM Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjk3/chapter/Q291cnNlOjI0NjU2",
+          "linkId": "f230d3dac5491e34"
+        },
+        {
+          "text": "CIAM Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1599/ciam/lessons",
+          "linkId": "d541d2b9e4012217"
+        },
+        {
+          "text": "Workforce Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1600/workforce/lessons",
+          "linkId": "f78e948251c00809"
+        }
+      ],
+      "learner": [
+        {
+          "text": "Course: PingGateway Essentials",
+          "url": "https://backstage.forgerock.com/university/forgerock/on-demand/path/TGVhcm5pbmdQYXRoOjQ%3D/chapter/Q291cnNlOjE1NzI2",
+          "linkId": "6c37d4fbae888bbb"
+        },
+        {
+          "text": "Demo Enablement: How to Use Demo Assets (Contact: enablepartners@pingidentity.com for live sessions)",
+          "url": "mailto:enablepartners@pingidentity.com?subject=Your%20Subject%20Here&body=Your%20message%20here",
+          "linkId": "49c50f80b19d1744"
+        }
+      ],
+      "associate": [
+        {
+          "text": "TE Monthly Partner Webinar: Product, Training and Tools Updates",
+          "url": "https://education.pingidentity.com/learn/courses/1567/technical-enablement-webinars/lessons",
+          "linkId": "50f96c5a254f98e1"
+        },
+        {
+          "text": "ForgeRock (Backstage) Download Center - PingGateway",
+          "url": "https://backstage.forgerock.com/downloads/browse/ig/featured",
+          "linkId": "acbacd4d5301315b"
+        }
+      ],
+      "practitioner": [
+        {
+          "text": "Course: PingGateway Deep Dive",
+          "url": "https://backstage.forgerock.com/university/forgerock/on-demand/path/TGVhcm5pbmdQYXRoOjQz",
+          "linkId": "4cb44b9b1959192b"
+        },
+        {
+          "text": "TE: Self Service: New Feature Enablement (Quaterly Product Updates)",
+          "url": "https://education.pingidentity.com/learn/courses/1562/quarterly-product-updates/lessons",
+          "linkId": "dc57d22911ab29ff"
+        },
+        {
+          "text": "Advanced Technical Enablement Webinar: Practitioner-Specific Topics (DAP only)",
+          "url": "https://education.pingidentity.com/learn/learning-plans/94/advanced-technical-enablement-series",
+          "linkId": "f732952ec379ae8f"
+        }
+      ],
+      "certified professional": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "3dad03a8d938349c"
+        }
+      ],
+      "scholar": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "84c1fb20542652f5"
+        }
+      ],
+      "certified expert": [
+        {
+          "text": "No content at this level",
+          "url": "/",
+          "linkId": "72dde72e858e39ca"
+        }
+      ],
+      "documentation": [
+        {
+          "text": "PingGateway Documentation Link",
+          "url": "https://docs.pingidentity.com/pinggateway/latest/release-notes/preface.html",
+          "linkId": "8776a00b37024b15"
+        }
+      ]
+    }
+  },
+  "pingidm": {
+    "productName": "PingIDM",
+    "productCategory": "Self-Managed",
+    "iconNAV": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-Asset-Invert-Lists-48x48.png?v=1729712327129",
+    "iconButton": "https://cdn.glitch.global/e798cad3-0f2c-406e-8fac-b1be6e5e7cd1/Ico-IdentityGovernance-48x48.png?v=1730144855268",
+    "levels": {
+      "foundation": [
+        {
+          "text": "Course: IAM Fundamentals",
+          "url": "https://backstage.forgerock.com/university/ping/on-demand/path/TGVhcm5pbmdQYXRoOjk3/chapter/Q291cnNlOjI0NjU2",
+          "linkId": "995adcfff4389d13"
+        },
+        {
+          "text": "CIAM Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1599/ciam/lessons",
+          "linkId": "a564f8bc21b02265"
+        },
+        {
+          "text": "Workforce Partner Solution Advocate Badge",
+          "url": "https://education.pingidentity.com/learn/courses/1600/workforce/lessons",
+          "linkId": "217fd74f1f49f798"
+        }
+      ],
+      "learner": [
+        {
+          "text": "Course: PingIDM Essentials",
+          "url": "https://backstage.forgerock.com/university/forgerock/on-demand/path/TGVhcm5pbmdQYXRoOjM%3D/chapter/Q291cnNlOjE1NzI0",
+          "linkId": "c4ab28e268361174"
+        },
+        {
+          "text": "Demo Enablement: How to Use Demo Assets (Contact: enablepartners@pingidentity.com for live sessions)",
+          "url": "mailto:enablepartners@pingidentity.com?subject=Your%20Subject%20Here&body=Your%20message%20here",
+          "linkId": "e1e1c2c6d7a7bf0e"
+        }
+      ],
+      "associate": [
+        {
+          "text": "TE Monthly Partner Webinar: Product, Training and Tools Updates",
+          "url": "https://education.pingidentity.com/learn/courses/1567/technical-enablement-webinars/lessons",
+          "linkId": "edb15055deb0dd1d"
+        },
+        {
+          "text": "ForgeRock (Backstage) Download Center - PingIDM",
+          "url": "https://backstage.forgerock.com/downloads/browse/idm/featured",
+          "linkId": "367f78bdde690eac"
+        }
+      ],
+      "practitioner": [
+        {
+          "text": "Course: PingIDM Deep Dive",
+          "url": "https://backstage.forgerock.com/university/forgerock/on-demand/path/TGVhcm5pbmdQYXRoOjM1",
+          "linkId": "dfd410b57561ff64"
+        },
+        {
+          "text": "TE: Self Service: New Feature Enablement (Quaterly Product Updates)",
+          "url": "https://education.pingidentity.com/learn/courses/1562/quarterly-product-updates/lessons",
+          "linkId": "1d7a288eefd820d5"
+        },
+        {
+          "text": "Advanced Technical Enablement Webinar: Practitioner-Specific Topics (DAP only)",
+          "url": "https://education.pingidentity.com/learn/learning-plans/94/advanced-technical-enablement-series",
+          "linkId": "2690431f0b9e3acb"
+        }
+      ],
+      "certified professional": [
+        {
+          "text": "Cert: Certified Professional -  PingIDM Exam",
+          "url": "https://google.com",
+          "linkId": "d0cb6a3064c242b0"
+        }
+      ],
+      "scholar": [
+        {
+          "text": "N/A",
+          "url": "https://google.com",
+          "linkId": "2695add42b1493ce"
+        }
+      ],
+      "certified expert": [
+        {
+          "text": "Accreditation: PingIDM Specialist Accreditation (AP-IDM)",
+          "url": "https://google.com",
+          "linkId": "6496ca831802f640"
+        }
+      ],
+      "documentation": [
+        {
+          "text": "PingIDM Documentation Link",
+          "url": "https://docs.pingidentity.com/pingidm/7.5/release-notes/preface.html",
+          "linkId": "62a9efc60a848028"
+        }
+      ]
+    }
+  }
+}

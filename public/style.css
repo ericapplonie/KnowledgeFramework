@@ -1,0 +1,581 @@
+:root {
+    --PINGONE-PRIMARY-BLUE: #303F5F;
+    --PINGONE-SECONDARY-BLUE: #4462ED;
+    --PINGONE-HIGHLIGHT-BLUE: #3F4EB5;
+    --PINGONE-HOVER-BLUE: #1D2A49;
+    --PINGONE-SELECTED-BLUE: #021935;
+    --PINGONE-LITE-BLUE: #e7ebf9;
+    --PINGONE-OFF-WHITE: #FBFAFF;
+    --SIDEBAR-WIDTH: 250px;
+    --SIDEBAR-BACKGROUND-COLOR: var(--PINGONE-PRIMARY-BLUE);
+    --SIDEBAR-FONT-COLOR: var(--PINGONE-OFF-WHITE);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ensures body takes full height of the screen */
+    background-color: #F7F8FD;
+    color: var(--PINGONE-PRIMARY-BLUE);
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    padding-left: 0px;
+    max-width: 100%;
+    height: 100%; /* Ensures container takes full height */
+}
+
+/* Navbar Styles */
+.navbar {
+    width: var(--SIDEBAR-WIDTH);
+    min-width: var(--SIDEBAR-WIDTH);
+    background-color: var(--SIDEBAR-BACKGROUND-COLOR);
+    color: var(--SIDEBAR-FONT-COLOR);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 20px;
+    height: 100%; /* Ensures navbar extends to the bottom */
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    flex-grow: 1;
+  
+}
+
+.navbar .category-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .category-list h3 {
+    font-size: 1.2rem;
+    color: var(--SIDEBAR-FONT-COLOR);
+    text-transform: uppercase;
+    padding-bottom: 5px;
+
+}
+
+.navbar a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: var(--SIDEBAR-FONT-COLOR);
+  
+}
+
+.navbar a:hover {
+    background-color: var(--PINGONE-HOVER-BLUE);
+}
+
+.navbar img.left {
+    height: 30px;
+    width: 180px;
+    margin: 10px auto;
+    opacity: 0.9;
+}
+
+.navbar .icon {
+    width: 35px; 
+    height: 35px; 
+    margin-right: 1px;
+    vertical-align: middle; 
+    opacity: 0.5;
+}
+
+/* Dropdown Menu */
+.navbar .dropdown {
+    display: none;
+    position: absolute;
+    left: 100%; /* Position to the right of the navbar */
+    background-color: #5d81b2;
+    width: calc(100% - 10px);
+    margin-top: -25%; /* Move the dropdown up by 10% of the height of the navbar item */
+    z-index: 10; /* Keep it above other content */
+}
+
+.navbar li:hover .dropdown,
+.navbar li.active .dropdown {
+    display: block;
+}
+
+.navbar .dropdown a {
+    padding: 10px 20px;
+    color: var(--SIDEBAR-FONT-COLOR);
+    text-decoration: none;
+}
+
+.navbar .dropdown a:hover {
+    background-color: var(--PINGONE-HOVER-BLUE);
+}
+
+.label {
+    color: #e7ebf9;
+    font-weight: bold;
+    padding: 0 7px;
+    line-height: 30px;
+}
+
+/* Button Styles */
+.button {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: var(--PINGONE-PRIMARY-BLUE);
+    width: 200px;
+    height: 200px;  /* Adjusts height to content size */
+    padding: 30px;
+    text-align: center;  /* Centers text horizontally */
+    display: flex;  /* Change from inline-flex to flex for better centering */
+    flex-direction: column;
+    align-items: center;  /* Centers items horizontally (since flex-direction is column) */
+    justify-content: center;  /* Centers content vertically */
+    font-size: 16px;
+    box-shadow: 0 0 5px var(--PINGONE-PRIMARY-BLUE);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.wizard-icon-container {
+    width: 50px; 
+    height: 50px; 
+    background-color: var(--PINGONE-LITE-BLUE);
+    opacity: 0.8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.button img.wizard {
+    width: 35px; 
+    height: 35px; 
+    justify-content: center;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 150%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: var(--PINGONE-SECONDARY-BLUE);
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: var(--PINGONE-SECONDARY-BLUE);
+    cursor: pointer;
+}
+
+.sliderticks {
+    display: flex;
+    justify-content: space-between;
+    /*padding: 0 10px;*/
+    width: 150%;
+}
+
+.sliderticks span {
+    line-height: 40px;
+}
+
+/* Link Container Styles */
+.link-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+/* Link Button Styles */
+.link {
+    display: flex;
+    justify-content: center;  /* Centers text horizontally */
+    align-items: center;      /* Centers text vertically */
+    background-color: var(--PINGONE-PRIMARY-BLUE);
+    color: var(--PINGONE-OFF-WHITE);
+    width: 300px;
+    height: 100px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    padding: 0 20px;  /* Adds horizontal padding without affecting centering */
+    text-align: center; /* Ensures text inside anchor is centered */
+    margin: 0 10px; /* Adds space between buttons */
+}
+
+/* Hover effect for Link */
+.link:hover {
+    background-color: var(--PINGONE-HOVER-BLUE);
+}
+
+.goButton {
+    background-color: var(--PINGONE-PRIMARY-BLUE);
+    color: var(--PINGONE-OFF-WHITE);
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    text-align: center;
+  font-size: 16px;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.footer {
+    display: flex; 
+    text-align: center; /* Centers the text horizontally */
+    align-items: center;
+    justify-content: center;
+    background-color: #bfcde7;
+    padding: 15px 0;
+    margin-top: auto; /* Footer always at bottom */
+    width: 100%;
+}
+
+.footer a {
+    color: var(--PINGONE-PRIMARY-BLUE);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px; 
+    background-color: #f1f1f1; 
+    border: 1px solid #cccccc; 
+    border-radius: 4px; 
+    margin-right: 16px; 
+    text-align: center; 
+    line-height: 1.2; 
+  
+}
+
+.footer a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.footer .separator {
+    width: 1px;
+    height: 24px;
+    background-color: #cccccc;
+    margin-right: 16px;
+}
+
+.footer .text {
+    margin-left: 16px;
+}
+
+.start {
+  border-top: 2px solid;
+  margin-top: 10px; /* Adds space below the element */
+  border-bottom: 2px solid;
+  margin-bottom: 20px; /* Adds space below the element */
+}
+
+
+.logo.right {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  height: 50px; /* Adjust size as needed */
+  z-index: 100; /* Ensures it stays above other elements */
+}
+
+/* Modal overlay for the widget */
+#widget-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000; /* Make sure it appears above other content */
+    visibility: hidden; /* Start hidden */
+} 
+
+/* Centered widget box */
+#widget {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: hidden; /* Prevent content overflow if any */
+}
+
+
+/* Center the company logo */
+.companyLogo {
+  max-width: 150px;
+  margin-bottom: 20px;
+  object-fit: contain; /* Ensures logo maintains aspect ratio */
+}
+
+/* Prevent body scrolling when the modal is visible */
+body.modal-open {
+    overflow: hidden; /* Prevent scrolling on the body */
+    margin-right: 0 !important; /* Ensure no extra margin on the right */
+}
+
+/* For smooth transitions for the overlay when showing/hiding */
+#widget-overlay.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Styling for Add, Edit, Delete buttons to look like link buttons */
+#btnAdd {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--PINGONE-PRIMARY-BLUE);
+    color: var(--PINGONE-OFF-WHITE);
+    width: 100px;  /* Adjust to match proportional size */
+    height: 40px;  /* Same height as link buttons */
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-size: 16px;
+}
+
+#btnAdd:hover {
+    background-color: var(--PINGONE-HOVER-BLUE);
+}
+
+/* Buttons for Add and Delete centered */
+#btnEdit, #btnDelete {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--PINGONE-PRIMARY-BLUE);
+    color: var(--PINGONE-OFF-WHITE);
+    width: 100px;  /* Proportional to the link buttons */
+    height: 40px;  /* Adjust size */
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-size: 12px;
+}
+
+#btnEdit:hover, #btnDelete:hover {
+    background-color: var(--PINGONE-HOVER-BLUE);
+}
+
+/* For the form inputs (select dropdowns) */
+select.form-control {
+    font-size: 15px;  /* Same size as buttons */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--PINGONE-SECONDARY-BLUE);
+    width: 300px;  /* Same width as buttons */
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+select.form-control:focus {
+    border-color: var(--PINGONE-HIGHLIGHT-BLUE);
+}
+
+/* Specific spacing and structure for the form */
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 ;
+}
+
+/* Styling for the reset button */
+#btnReset {
+    background-color: var(--PINGONE-PRIMARY-BLUE);
+    color: var(--PINGONE-OFF-WHITE);
+    width: 100px;  /* Proportional size */
+    height: 40px;  /* Proportional size */
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#btnReset:hover {
+    background-color: var(--PINGONE-HOVER-BLUE);
+}
+
+/* Styling for the link list */
+#linkList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#linkList li {
+    background-color: #ffffff;
+    border: 1px solid var(--PINGONE-SECONDARY-BLUE);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#linkList li a {
+    color: var(--PINGONE-PRIMARY-BLUE);
+    text-decoration: none;
+}
+
+#linkList li a:hover {
+    color: var(--PINGONE-HOVER-BLUE);
+}
+
+/* Make the input fields bigger and add an orange border */
+#linkText, #linkURL {
+    font-size: 15px; /* Increase font size */
+    padding: 12px; /* Add padding to make the input fields taller */
+    border: 10px var(--PINGONE-PRIMARY-BLUE); /* Orange border color */
+    border-radius: .5px; /* Slightly rounded corners */
+    width: 500px; /* Ensure input fields stretch to fill their container */
+    outline: 1.5px solid black; /* Black outline initially */
+    outline-offset: 4px; /* Offset the outline slightly from the border */
+    margin-bottom: 15px; /* Add space below each text field */
+
+}
+
+/* Optional: Add focus effect */
+#linkText:focus, #linkURL:focus {
+    border-color: var(--PINGONE-PRIMARY-BLUE); /* Darker orange when focused */
+    outline-color: red; /* Darker outline color when focused */
+    outline-width: 1.5px; /* Keep the same outline width when focused */
+    outline-offset: 4px; /* Keep the outline offset the same */
+
+}
+h1 {
+    margin-bottom: 20px; /* Adjust the value to your preference */
+
+}
+
+
+/* Back Button - Styled like the link buttons */
+.backButton {
+    background-color: #f1f1f1; /* Light background */
+    margin-top: 20px; /* Add space above the button */
+    color: var(--PINGONE-PRIMARY-BLUE); /* Text color same as the link buttons */
+    border: 1px solid #cccccc; /* Border to make it look like a button */
+    padding: 10px 20px; /* Padding for a button-like appearance */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px;
+    cursor: pointer; /* Makes the cursor look like it's clickable */
+    text-decoration: none; /* Remove underline if it's a link */
+    display: inline-block; /* To make sure it behaves like a button */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transition */
+    margin-left: 20px; /* Add space to the right of the back button */
+    width: 100px;  /* Set width explicitly */
+    height: 40px;  /* Set height explicitly */
+}
+
+/* Hover effect for the back button */
+.backButton:hover {
+    background-color: var(--PINGONE-SECONDARY-BLUE); /* Change background on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+/* Focus style (optional) */
+.backButton:focus {
+    outline: none; /* Removes the default focus outline */
+    box-shadow: 0 0 5px var(--PINGONE-PRIMARY-BLUE); /* Optional focus effect */
+}
+/* Focus style (optional) */
+#content-header {
+  padding-top: 30px; /* Adds space inside the element above the content */
+}
+
+#top-right-logo {
+  position: absolute;
+  top: 10px; /* Adjust the distance from the top */
+  right: 10px; /* Adjust the distance from the right */
+  height: 50px; /* Adjust the size of the logo */
+  width: auto; /* Maintain aspect ratio */
+  z-index: 1000; /* Ensure it stays on top of other elements */
+}
+
+/* Container holding the buttons */
+#product-buttons {
+    display: flex;             /* Aligns button elements horizontally */
+    justify-content: center;   /* Centers buttons horizontally */
+    align-items: center;       /* Vertically centers buttons if needed */
+    gap: 20px;                 /* Adds space between buttons */
+    flex-wrap: wrap
+}
+/* Style for the links container */
+#links {
+    display: flex;
+    flex-wrap: wrap;              /* Allows buttons to wrap to the next line */
+    justify-content: center;      /* Centers the buttons horizontally */
+    gap: 10px;                    /* Adds space between buttons */
+    margin-top: auto;             /* Pushes the links section to the bottom */
+    padding: 20px;                /* Padding inside the container */
+}
+
+/* Style for the link buttons */
+.link-button {
+    display: flex;
+    justify-content: center;     /* Centers text horizontally */
+    align-items: center;         /* Centers text vertically */
+    background-color: var(--PINGONE-SECONDARY-BLUE); /* Primary blue for buttons */
+    color: var(--PINGONE-OFF-WHITE);                /* Off-white text */
+    text-decoration: none;       /* Removes underline from links */
+    width: 300px;                /* Sets a fixed width */
+    height: 50px;                /* Sets a fixed height */
+    border-radius: 5px;          /* Rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    font-size: 16px;             /* Text size */
+    font-weight: bold;           /* Bold text */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    text-align: center;          /* Centers text in multi-line scenarios */
+    padding: 0 10px;             /* Horizontal padding */
+    margin: 5px;                 /* Space between buttons */
+}
+
+/* Hover effect for link buttons */
+.link-button:hover {
+    background-color: var(--PINGONE-HIGHLIGHT-BLUE); /* Darker blue on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Slightly larger shadow */
+}

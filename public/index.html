@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ping Identity Partner Knowledge Framework</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar Section (Left side) -->
+        <div class="navbar" id="navbar">
+            <!-- Left Logo and "Wizard - Start Here" will be dynamically added here -->
+        </div>
+      
+      <img src="	https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR3gpOzocJjYRVxeWVCDLeGv64nd7syG9JAQ&s" alt="Logo" id="top-right-logo">
+
+        <!-- Main Content Section (Product buttons, Wizard, etc.) -->
+        <div class="main-content">
+            <h1 id="content-header"></h1>
+            <p id="question-text"></p>
+
+            <!-- Product buttons will be dynamically added here -->
+            <div id="product-buttons"></div>
+
+            <!-- Levels section (hidden initially) -->
+            <div id="levels" style="display:none;">
+                <!-- Levels will be dynamically added -->
+            </div>
+
+            <div id="content">
+                <!-- Content based on level selection will go here -->
+            </div>
+            
+            <div id="links" class="links-container">
+    <!-- Link buttons will be dynamically added here -->
+</div>
+
+          
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="#" id="admin-link">Admin</a> | Copyright © 2024 <br><br> Technical Enablement | Email: enablepartners@pingidentity.com
+        </div>
+    </footer>
+  
+      <!-- Widget Overlay (Initially Hidden) -->
+    <div id="widget-overlay">
+        <div id="widget">
+            <!-- DaVinci Widget Content will be injected here -->
+        </div>
+    </div>
+  
+      <script
+      type="text/javascript"
+      src="https://assets.pingone.com/davinci/latest/davinci.js"
+    ></script>
+
+    <!-- Import JavaScript Modules -->
+    <script type="module" src="buildNavBar.js"></script>
+    <script type="module" src="buildWizard.js"></script>
+    <script type="module" src="buildWidget.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
