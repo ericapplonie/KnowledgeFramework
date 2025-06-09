@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 
 // Middleware to protect routes with API_SECRET
 function authenticate(req, res, next) {
-  const apiSecret = req.headers['api_secret'];
+  const apiSecret = req.headers['api-secret'];
   if (apiSecret && apiSecret === API_SECRET) {
     next();
   } else {
@@ -108,7 +108,7 @@ app.get('/api/davinci-config', async (req, res) => {
 
 // Get all links for a specific product and level
 app.get('/api/links', authenticate, (req, res) => {
-  const productId = req.headers['product_id'];
+  const productId = req.headers['product-id'];
   const level = req.headers['level'];
 
   if (!productId || !level) {
@@ -126,7 +126,7 @@ app.get('/api/links', authenticate, (req, res) => {
 
 // Create a new link
 app.post('/api/links', authenticate, (req, res) => {
-  const productId = req.headers['product_id'];
+  const productId = req.headers['product-id'];
   const level = req.headers['level'];
   const text = req.headers['text'];
   const url = req.headers['url'];
@@ -174,7 +174,7 @@ app.get('/api/links/:linkId', authenticate, (req, res) => {
 
 // Update a link by linkId
 app.put('/api/links', authenticate, (req, res) => {
-  const linkId = req.headers['link_id'];
+  const linkId = req.headers['link-id'];
   const text = req.headers['text'];
   const url = req.headers['url'];
 
@@ -212,7 +212,7 @@ app.put('/api/links', authenticate, (req, res) => {
 
 // Delete a link by linkId in the headers
 app.delete('/api/links', authenticate, (req, res) => {
-  const linkId = req.headers['link_id']; // Access linkId from headers
+  const linkId = req.headers['link-id']; // Access linkId from headers
 
   if (!linkId) {
     return res.status(400).json({ error: 'Link ID is required in headers.' });
