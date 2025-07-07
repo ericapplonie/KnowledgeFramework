@@ -695,6 +695,11 @@
           "text": "Advanced Technical Enablement Webinar: Practitioner-Specific Topics (DAP only)",
           "url": "https://education.pingidentity.com/learn/learning-plans/94/advanced-technical-enablement-series",
           "linkId": "e4c11b4db1aeec31"
+        },
+        {
+          "linkId": "e3e4b0b58a46e596",
+          "text": "PingOne Verify For Practitioners",
+          "url": "https://pingidentity.docebosaas.com/learn/courses/1647/pingone-verify-for-practitioners/lessons"
         }
       ],
       "certified professional": [
